@@ -28,6 +28,7 @@ const TicTacToe = () => {
 
   return (
     <div>
+    <h1 className="msg">Tic Tac Toe Game</h1>
       <div className="status">{status}</div>
       <div className="board-row">
         {rendersquare(0)}
